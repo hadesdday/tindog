@@ -1,0 +1,136 @@
+body {
+  font-family: "Montserrat";
+}
+#title .container-fluid{
+  background-color: #ff4c68;
+  color: #fff;
+}
+/* Headings */
+.big-headings{
+  font-family: "Montserrat" !important;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+#iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+.fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo {
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.fix-button {
+  margin-top: 16%;
+}
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+/* CTA Section*/
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.quote {
+  line-height: 1.5;
+  font-size: 3rem;
+  padding: 5% 10%;
+}
+#footer {
+  background-color: #fff;
+  padding: 7% 10% 0%;
+  text-align: center;
+}
+.fa {
+  padding: 0% 2%;
+}
+.quote-button {
+  margin: 1%;
+}
+.nav-item{
+  transition-delay: 2s;
+}
